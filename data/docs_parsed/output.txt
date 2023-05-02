@@ -1,24 +1,24 @@
-   
-   
-   
-   
-  
+
+
+
+
+
 
 ‘ei eS
 el of es wey aes re ' ie
 
-    
-   
-  
-   
-   
-   
-  
-  
-   
 
-  
-  
+
+
+
+
+
+
+
+
+
+
+
 
 We
 
@@ -63,12 +63,12 @@ aa
 
 Good tests fail.
 
- 
 
- 
-   
-  
-     
+
+
+
+
+
 
 wae
 
@@ -77,39 +77,39 @@ The Way of Testivus
 Less Unit Testing Dogma
 More Unit Testing Karma
 
- 
+
 
 Good advice on developer and unit testing, packaged
 as twelve cryptic bits of ancient Eastern wisdom. ha
 
- 
+
 
 St ae a
 Translated by Alberto Savoie *
 
- 
-   
-  
- 
+
+
+
+
 
 ‘ A is
  www.agitar.com/downloads/TheWayOfTestivus.pdfe ©
 
 Pr :
-   
-  
- 
- 
-   
-  
-   
-   
-     
- 
- 
- 
 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Only fools he no tools a
 
@@ -133,11 +133,11 @@ what can be done better with a tool.
 It is not wise to use your head ve
 when your head is not needed. i
 
- 
+
 
 Good tests fail 4
 
- 
+
 
 The pupil went to the master programmer and said:
 
@@ -162,15 +162,15 @@ i 4 TEN my a red cheek, the pupil went to HR eohcomp ay i o
 But that’s another story. . mi F ‘y
 a. eS
 
-  
+
 
 ms
 oe
 
 Bey 8 eh eas
-   
-   
- 
+
+
+
 
 A ;
 *
@@ -182,23 +182,23 @@ ih yy | ‘
 ‘ Th dow't like to write ugly tests,
 but ugly code needs testing the most.
 
- 
 
-   
-   
-    
-  
-   
-   
-   
-   
-  
-   
-      
- 
-   
 
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Hy Dont let ugly code stop you from writing tests,
 but let ugly code stop you from writing more of it.
@@ -242,14 +242,14 @@ f your fu ge er Has ee 4
 
 i vt fa ES ¥
 
- 
- 
-    
- 
-  
- 
-    
-  
+
+
+
+
+
+
+
+
 
 ! The best time to test ee a
 is whien the code is fresh ‘sik
@@ -262,7 +262,7 @@ As it ages, it becomes hard and brittle.
 and easy to change, testing will be easy,
 and both the code and the tests will be strong.
 
- 
+
 
 Tests not run waste away '
 Run your tests often.
@@ -270,7 +270,7 @@ Don't let them get stale.
 Rejoice when they pass. amet
 Rejoice when they fail. t
 
- 
+
 
 , 5 oe
 An imperfect test today is better
@@ -283,26 +283,26 @@ The perfect i is the enemy of the good. —
 
 rite the test ie can today. a
 
- 
- 
+
+
 4 “ *
 A ie | e - %
 
-  
- 
-   
-  
-   
-  
-  
-   
-   
-  
-   
-   
-  
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 | ee
 lh w ven L writing the code, think of the test.
@@ -346,11 +346,11 @@ ad. Write the test eee needs to be written.”
 
 n a
 
-     
- 
- 
-   
- 
+
+
+
+
+
 
 =
 
@@ -364,16 +364,16 @@ a | ry a * u '
 *
 to argue gin into ie nig Att.
 
- 
-      
-   
-  
-   
-    
- 
- 
-   
-   
+
+
+
+
+
+
+
+
+
+
 
 This translation and printing of
 “The Way of Testivus”
@@ -404,9 +404,9 @@ v
 
 Best of all, it’s free.
 
- 
-    
-  
+
+
+
 
 a *
 b hd
@@ -416,12 +416,12 @@ on . ee
 . “te
 *
 
-   
-   
-   
-   
-   
-    
+
+
+
+
+
+
 
 i
 
@@ -448,11 +448,11 @@ The pupil rushed to write some tests.
 3 ek ‘ Wie the code deserves to be written,
 7 it deserves to fave tests.
 
- 
-   
-  
-   
-   
+
+
+
+
+
 
 ; 4) "
 * » A
@@ -485,33 +485,33 @@ Testing needs flexibility. , Le
 Karma thrives on creativity.
 Testing needs creativity.
 
- 
+
 fF
 
-   
+
 
 Trans tasatl Intro duction Hin
 
 4)
 
-  
-   
-    
- 
-   
-  
- 
-   
-   
- 
- 
- 
-   
-  
-   
- 
-  
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 In May 2006, an ill-prepared international expedition to the Himalayas lost its way.
 After two weeks of wandering around — hungry, thirsty, and smelling fik ¢ inexperienced
@@ -548,7 +548,7 @@ booklets. One of them was called “Learn To Sail In 30 Minutes,” which explai
 the fate of the programmers. You are holding in your hands a translation of the +
 other booklet, “The Way of Testivus.” Who wrote this mysterious booklet? What is
 
- 
+
 
 Testivus? Only Google knows for sure. Ss ee . iy
 "Tae. i* mM *
@@ -576,11 +576,9 @@ ari 2007, 3 sgh
 
 . v7 ie } *
 
- 
 
-   
+
+
 
 dz
 my via ‘ . 1g
- 
-
