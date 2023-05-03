@@ -9,6 +9,7 @@ def make_temp_dir(dir_path):
     except:
         print("Error in making temp dir: " + str(dir_path))
 
+
 def make_entity_dir(dir_path):
     try:
         parent_dir = os.path.dirname(dir_path)

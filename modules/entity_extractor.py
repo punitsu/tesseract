@@ -1,8 +1,9 @@
 import os
 import re
+from PIL import Image
+from transformers import pipeline, GPT2Tokenizer
 
-
-def extract_resume_info(resumes_dir, output_dir):
+def extract_resume_info_regex(resumes_dir, output_dir):
     name_regex = r"([A-Z][a-z]+)\s([A-Z][a-z]+)"
     email_regex = r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b"
     phone_regex = r"\d{10}"
@@ -71,3 +72,27 @@ def extract_resume_info(resumes_dir, output_dir):
                 f.write("Skills: None\n")
 
         print("Resume information extracted from:", filename)
+
+
+def extract_resume_info_NER(input_dir, output_dir):
+
+    tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+
+    nlp = pipeline(
+        "document-question-answering",
+        model="impira/layoutlm-document-qa",
+        tokenizer=tokenizer,
+    )
+
+    image_files = [
+        f for f in os.listdir(input_dir) if f.endswith(".jpg") or f.endswith(".png")
+    ]
+
+    for image_file in image_files:
+        print(image_file)
+        image_path = os.path.join(input_dir, image_file)
+        score_name, answer_name, start_name, end_name = nlp(
+            image_path,
+            "What is the Name in the document?",
+        )
+        print("Name:", answer_name)

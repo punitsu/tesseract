@@ -2,7 +2,9 @@
 ~~ ### TODO Extracting text from multi column document ~~
 ### TODO Preprocessing images using openCV
 ### TODO Write gh actions
-### TODO Extract Entities:
+~~ ### TODO Extract Entities: 1. Regex ~~
+### TODO Extract Entities: 2. NER
+
     1. Names
     2. Email
     3. Phone No.
