@@ -3,12 +3,13 @@ import pytesseract
 from PIL import Image
 
 
-def image_to_text(input_dir, output_dir):
+def image_to_text(input_dir, output_dir, file_name):
     try:
         image_files = [
             f for f in os.listdir(input_dir) if f.endswith(".jpg") or f.endswith(".png")
         ]
-        output_file = os.path.join(output_dir, "output.txt")
+        file_name = file_name + ".txt"
+        output_file = os.path.join(output_dir, file_name)
 
         with open(output_file, "w") as f:
             for image_file in image_files:
